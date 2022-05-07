@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/contact.css" />
+  </head>
+  <script
+    src="https://kit.fontawesome.com/de708b1bb9.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <header>
+      <nav>
+        <i class="fa-solid fa-globe"></i>
+        <h1 class="header">AdVore</h1>
+        <ul class="nav-links">
+          <li><a href="/HTML/index.html"> Home </a></li>
+          <li><a href="/HTML/contact.html"> Contact </a></li>
+          <li><a href="/HTML/resources.html"> Resources </a></li>
+          <li><a href="/HTML/places.html"> Places</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="controller">
+      <form action="/form" method="post">
+        <fieldset>
+          <legend>Contact Us!</legend>
+
+          <div>
+            <label class="label" for="firstName">First name:</label>
+            <input type="text" id="firstName" name="first_name" />
+          </div>
+
+          <div>
+            <label class="label" for="lastName">Last name:</label>
+            <input type="text" id="lastName" name="last_name" />
+          </div>
+
+          <div>
+            <label class="label" for="email">Email:</label>
+            <input type="email" id="email" name="email_address" />
+          </div>
+
+          <div class="status-date">
+            <div class="select">
+              <label class="label label2" for="role">Currently:</label>
+              <select id="role" name="user_role_name">
+                <option value=""></option>
+                <option value="employed">Employed</option>
+                <option value="looking">Looking for Work</option>
+                <option value="trying-my-best">Trying my best</option>
+              </select>
+            </div>
+
+            <div class="date">
+              <label class="label label2" for="date">Date:</label>
+              <input type="date" id="date" name="date" />
+            </div>
+          </div>
+
+          <div class="comments">
+            <label class="label" for="comments">Questions:</label>
+            <textarea id="comments" name="comments"></textarea>
+          </div>
+
+          <div class="checkbox">
+            <div class="news">
+              <input type="checkbox" id="signup" name="signup" value="Signup" />
+              <label for="signup" class="check">
+                Sign up for the Newsletter!
+              </label>
+            </div>
+
+            <div class="terms">
+              <input type="checkbox" id="terms" name="terms" value="Terms" />
+              <label for="terms" class="check">
+                Agree to terms & conditions</label
+              >
+            </div>
+          </div>
+
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

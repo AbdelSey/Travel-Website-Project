@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Barlow:wght@100&family=Bungee&family=Lato&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Smooch+Sans:wght@100&family=Zilla+Slab&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Acme", sans-serif;
+}
+
+* li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 22px;
+}
+
+* a:hover {
+  color: yellow;
+}
+
+.fa-solid,
+.fa-globe {
+  font-size: 3em;
+  cursor: pointer;
+}
+
+body {
+  background-image: url("/images/bk-main.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  font-size: 2em;
+}
+
+nav {
+  background-color: rgba(36, 255, 7, 0.247);
+  box-shadow: 4px 4px 4px rgba(36, 0, 6, 0.2);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  color: white;
+}
+
+nav:hover {
+  background-color: rgba(36, 255, 7, 0.616);
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  font-size: 2.3em;
+  color: rgb(27, 148, 3);
+  cursor: pointer;
+}
+
+.title {
+  background-color: white;
+  padding: 0.2em;
+  border-radius: 5em;
+}
+
+.container {
+  background-color: white;
+  width: 800px;
+  height: 650px;
+  text-align: center;
+  line-height: 1.5;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+  display: flex;
+  height: 300;
+}
+
+.card-img {
+  float: left;
+  width: 33.35%;
+}
+
+.first-txt > h2 {
+  margin-bottom: 1rem;
+}
+.second-txt > h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.third-txt > h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(33, 177, 5);
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.4em;
+}
