@@ -17,7 +17,9 @@ There are resources for apps they should download and pictures of places to give
 
 ![third](https://user-images.githubusercontent.com/101757205/182207905-09b2db40-4ffd-41a2-833c-6b0f80017ada.jpg)
 
+## Places 
 
+![fourth](https://user-images.githubusercontent.com/101757205/182207896-252d2935-cba1-4c3c-ba55-c3e14b18b06b.jpg)
 
 
 
